@@ -35,4 +35,6 @@ function createApp() {
   return app;
 }
 
-module.exports = { createApp };
+const app = createApp();
+module.exports = app;
+module.exports.createApp = createApp;
