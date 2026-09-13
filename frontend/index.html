@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrustLine</title>
+<!-- Instant redirect for browsers with JS enabled (no visible flash). -->
+<script>window.location.replace("about.html");</script>
+<!-- Fallback redirect for the rare case JS is disabled/blocked. -->
+<meta http-equiv="refresh" content="0; url=about.html">
+<style>
+  :root{ --void:#0A0D12; --paper:#E9EDF2; --brand:#FF6A00; --ink-dim:#565F6B; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    background:var(--void); color:var(--paper);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    text-align:center; gap:18px;
+  }
+  a{ color:var(--brand); font-weight:600; text-decoration:none; }
+  a:hover{ text-decoration:underline; }
+  .links{ font-size:14px; color:var(--ink-dim); }
+  .links a{ margin:0 6px; }
+</style>
+</head>
+<body>
+  <svg width="44" height="44" viewBox="0 0 40 40">
+    <rect x="2" y="2" width="36" height="36" rx="10" fill="#FF6A00"/>
+    <line x1="11" y1="9" x2="20" y2="15" stroke="#0A0D12" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="29" y1="9" x2="20" y2="15" stroke="#0A0D12" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="20" y1="6" x2="20" y2="15" stroke="#0A0D12" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="11" cy="9" r="2.1" fill="#FF6A00" stroke="#0A0D12" stroke-width="1.5"/>
+    <circle cx="29" cy="9" r="2.1" fill="#FF6A00" stroke="#0A0D12" stroke-width="1.5"/>
+    <circle cx="20" cy="6" r="1.8" fill="#FF6A00" stroke="#0A0D12" stroke-width="1.5"/>
+    <rect x="14.5" y="15" width="11" height="19" rx="2.6" fill="none" stroke="#0A0D12" stroke-width="2"/>
+    <line x1="17.5" y1="18.5" x2="22.5" y2="18.5" stroke="#0A0D12" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="20" cy="30.5" r="1.1" fill="#0A0D12"/>
+  </svg>
+
+  <p>Redirecting to TrustLine… if nothing happens, <a href="about.html">click here</a>.</p>
+
+  <p class="links">
+    <a href="verify.html">Check a number</a>·
+    <a href="login.html">Log in</a>·
+    <a href="recruiter-register.html">Recruiter registration</a>
+  </p>
+</body>
+</html>
